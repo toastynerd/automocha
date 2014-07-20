@@ -1,7 +1,7 @@
 {
   "name": "automocha",
   "description": "autorun mocha tests on file changes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "mocha",
     "testing",
@@ -10,7 +10,7 @@
   "author": "Tyler Morgan <tyler@codefellows.com>",
   "repository" : {
     "type": "git",
-    "url": "://github.com/toastynerd/automocha"
+    "url": "https://github.com/toastynerd/automocha"
   },
   "dependencies": {
     "glob": "^4.0.4",
