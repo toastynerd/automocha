@@ -1,0 +1,12 @@
+#tell travis/shippable we're running a node app
+language: node_js
+
+node_js:
+  - 0.10.28
+
+before_install:
+  - npm install mocha
+  - npm install chai
+
+script:
+  - npm test
