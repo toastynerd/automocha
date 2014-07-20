@@ -1,7 +1,7 @@
 {
   "name": "automocha",
-  "description": "autorun mocha on file changes changes",
-  "version": "0.0.1",
+  "description": "autorun mocha tests on file changes",
+  "version": "0.0.2",
   "keywords": [
     "mocha",
     "testing",
