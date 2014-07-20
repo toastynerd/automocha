@@ -2,12 +2,12 @@ var expect = require('chai').expect;
 
 describe('a fail and a pass', function() {
   it('should pass', function(done) {
-    expect(true).to.eql(true);
+    expect(true).to.eql(false);
     done();
   });
 
   it('should fail', function(done) {
-    expect(true).to.eql(false);
+    expect(true).to.eql(true);
     done();
   });
 
