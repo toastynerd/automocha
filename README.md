@@ -1,10 +1,8 @@
 Auto Mocha
 =========================
-Still in early development stages to install:
+Still in early development stages, to install:
 ```
-git clone https://github.com/toastynerd/automocha
-cd automocha
-npm link
+npm install -g automocha
 ```
 Automocha will use mocha to autorun any tests contained within
 `./test/automocha/` and end in `-test.js`. Automocha will
