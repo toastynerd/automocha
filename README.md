@@ -1,6 +1,7 @@
 Auto Mocha
 =========================
-<img src="https://travis-ci.org/toastynerd/automocha.svg?branch=master">Build Status</img>
+<img src="https://travis-ci.org/toastynerd/automocha.svg?branch=master" alt="build status"></img>
+
 Still in early development stages, to install:
 ```
 npm install -g automocha
