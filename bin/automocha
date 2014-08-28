@@ -2,6 +2,13 @@
 
 var AutoMocha = require('../lib/automocha');
 
+if (process.argv.indexOf('-h') > 0 || process.argv.indexOf('--help') > 0) {
+  console.log('usage:');
+  console.log('automocha <space separated list of files to watch>');
+  console.log('will run all of the tests in ./test/automocha when the test files or watched files change');
+  return false;
+}
+
 files = [];
 for(var i = 2; i < process.argv.length; i++) {
   files.push(process.argv[i]);
